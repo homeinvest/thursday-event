@@ -1,0 +1,13 @@
+{
+  "name": "hi-thursday-event",
+  "compatibility_date": "2025-09-01",
+  "routes": [
+    { "pattern": "homeinvest.com/cst-seg-webinar", "zone_name": "homeinvest.com" },
+    { "pattern": "homeinvest.com/cst-seg-webinar/*", "zone_name": "homeinvest.com" }
+  ],
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  }
+}
